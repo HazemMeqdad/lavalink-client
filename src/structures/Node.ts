@@ -163,7 +163,7 @@ export class LavalinkNode {
         delete options.path;
         delete options.extraQueryUrlParams;
 
-        const request = await fetch(urlToUse, options);
+        const request = await fetch(url, options);
 
         this.calls++;
 
